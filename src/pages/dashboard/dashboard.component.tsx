@@ -10,6 +10,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import '../../../assets/css/font.scss';
 import './dashboard.scss';
+import './w3.css';
 
 /**
  * Dashboard Component
@@ -23,27 +24,27 @@ export class DashboardComponent extends React.Component<any, any> {
     this.state = {authorised: true};
   }
 
-  public componentWillMount() {
-    const cookie = document.cookie;
-    this.authorizeUser(cookie);
-  }
+  // public componentWillMount() {
+  //   const cookie = document.cookie;
+  //   this.authorizeUser(cookie);
+  // }
 
   /**
    * Authenticate the user
    *
    * Validate the user token
    */
-  public authorizeUser(cookie) {
-    const token = cookie.split('jwt-token=');
-    if (token.length === 2) {
-      const jwtToken = token[1];
-      const decodedToken = jwtDecode(jwtToken);
-      const role = (decodedToken.UserInfo.roles);
-    } else {
-      localStorage.setItem('error', 'Unauthorised Access, Please Log in with your Andela Email');
-      this.setState({authorised: false});
-    }
-  }
+  // public authorizeUser(cookie) {
+  //   const token = cookie.split('jwt-token=');
+  //   if (token.length === 2) {
+  //     const jwtToken = token[1];
+  //     const decodedToken = jwtDecode(jwtToken);
+  //     const role = (decodedToken.UserInfo.roles);
+  //   } else {
+  //     localStorage.setItem('error', 'Unauthorised Access');
+  //     this.setState({authorised: false});
+  //   }
+  // }
 
   /**
    * Renders Genua page
@@ -56,7 +57,7 @@ export class DashboardComponent extends React.Component<any, any> {
       return;
     }
     return (
-      <div>
+      <div className="home-container">
         Home Page
       </div>
     );
