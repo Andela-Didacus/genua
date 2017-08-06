@@ -16,14 +16,4 @@ describe('<LoginComponent />', () => {
   it('renders a login button', () => {
     expect(wrapper.find('#login-button')).to.have.length(1);
   });
-
-  // Test if it displays abbreviated title C.A.L.M
-  it('displays the abbreviated Title', () => {
-    expect(wrapper.contains(<span id="calm-abbreviation">C.A.L.M</span>)).to.equal(true);
-  });
-
-  // Test if it displays the product title
-  it('displays the product title', () => {
-    expect(wrapper.contains(<span id="calm">The Collective Andela Learning Map</span>)).to.equal(true);
-  });
 });
