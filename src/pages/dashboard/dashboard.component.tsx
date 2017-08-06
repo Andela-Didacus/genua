@@ -1,16 +1,10 @@
 import * as jwtDecode from 'jwt-decode';
 import * as React from 'react';
-import { Link } from 'react-router-dom';
-
-// notifications
-import { ToastContainer } from 'react-toastify';
-import { toast } from 'react-toastify';
 
 // styles
 import 'react-toastify/dist/ReactToastify.min.css';
 import '../../../assets/css/font.scss';
 import './dashboard.scss';
-import './w3.css';
 
 /**
  * Dashboard Component
@@ -18,47 +12,44 @@ import './w3.css';
  * Dashboard for The Learning Map
  */
 export class DashboardComponent extends React.Component<any, any> {
-
-  constructor(props) {
-    super(props);
-    this.state = {authorised: true};
-  }
-
-  // public componentWillMount() {
-  //   const cookie = document.cookie;
-  //   this.authorizeUser(cookie);
-  // }
-
-  /**
-   * Authenticate the user
-   *
-   * Validate the user token
-   */
-  // public authorizeUser(cookie) {
-  //   const token = cookie.split('jwt-token=');
-  //   if (token.length === 2) {
-  //     const jwtToken = token[1];
-  //     const decodedToken = jwtDecode(jwtToken);
-  //     const role = (decodedToken.UserInfo.roles);
-  //   } else {
-  //     localStorage.setItem('error', 'Unauthorised Access');
-  //     this.setState({authorised: false});
-  //   }
-  // }
-
   /**
    * Renders Genua page
    *
    * @return {object} JSX for dashboard component
    */
   public render() {
-    if (!this.state.authorised) {
-      window.location.href = '/login';
-      return;
-    }
     return (
       <div className="home-container">
-        Home Page
+        <div className="title">
+          <div className="logo">
+          </div>
+          <div className="genua">
+            Gender Network for Universities in Africa <br/>
+            G.E.N.U.A
+          </div>
+        </div>
+        <div className="Navbar">
+          <div><a>Home </a></div>
+          <div><a>About us</a></div>
+          <div><a>Events </a></div>
+          <div><a>Gallery</a></div>
+          <div><a>Contacts</a></div>
+        </div>
+        <div className="body">
+          Body
+        </div>
+        <div className="about-us">
+          About us
+        </div>
+        <div className="team">
+          Team
+        </div>
+        <div className="contacts">
+          Contacts
+        </div>
+        <footer>
+          Footer
+        </footer>
       </div>
     );
   }
