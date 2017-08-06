@@ -5,7 +5,7 @@ import './slider.scss';
 export class SliderComponent extends React.Component <{}, {}> {
   public render() {
 
-    const image = '/lm-back.jpg';
+    const image = '/acu.jpeg';
     return (
         <div id="slider">
           <figure>
