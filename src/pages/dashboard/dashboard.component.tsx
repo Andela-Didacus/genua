@@ -76,8 +76,8 @@ export class DashboardComponent extends React.Component<any, any> {
                 <p><strong>Other Committee Members: </strong></p>
                 <ul>
                   <li><strong>Prof.  Frances Owusu Daaku </strong> - Kwame Nkuruma University of Science
-                    and technology ,Ghana</li>
-                  <li><strong>Prof.  Catherine Ndungo </strong> - Kenyatta  University  ,Kenya</li>
+                    and technology, Ghana</li>
+                  <li><strong>Prof.  Catherine Ndungo </strong> - Kenyatta  University, Kenya</li>
                   <li><strong>Prof.  Londiwe  C.Nkiwane </strong>- National University of  Science
                     and technology, Zimbabwe</li>
                   <li><strong>Prof.  Faith Nguru </strong>- Riara University, Kenya</li>
@@ -112,8 +112,8 @@ export class DashboardComponent extends React.Component<any, any> {
                 <li> To  engage in mentorship and career Guidance</li>
                 <li> Guidance counseling and counseling services</li>
               </ul>
-              <div className="image">
-              </div>
+            </div>
+            <div className="image">
             </div>
           </div>
           <div className="team">
