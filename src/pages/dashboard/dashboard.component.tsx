@@ -36,26 +36,26 @@ export class DashboardComponent extends React.Component<any, any> {
           <div className="navigation">
             <div className="Navbar">
               <div><a>Home </a></div>
-              <div><a>About us</a></div>
               <div><a>Events </a></div>
               <div><a>Gallery</a></div>
-              <div><a>Contacts</a></div>
+              <div><a href="#contacts">Contacts</a></div>
             </div>
           </div>
         </div>
-
+        <div className="images-slider">
+          <div className="content2">
+            <h2>Gender Network for Universities in Africa</h2>
+            <p>GENUA works in partnership with other units and organizations
+              on issues related to education, gender, training, consultancy and empowerment. </p>
+            <br/>
+            <div id="btn-events"><a>View Events</a></div>
+          </div>
+        </div>
         {/*body*/}
         <div className="scroll">
           <div className="body">
             <div className="sections">
               <div className="section2">
-                <div className="content2">
-                  <h2>Gender Network for Universities in Africa</h2>
-                  <p>GENUA works in partnership with other units and organizations
-                    on issues related to education, gender, training, consultancy and empowerment. </p>
-                  <br/>
-                  <div id="btn-events"><a>View Events</a></div>
-                </div>
                 <div className="content">
                   <h2>About us</h2>
 
@@ -118,6 +118,8 @@ export class DashboardComponent extends React.Component<any, any> {
             </div>
           </div>
           <div className="team">
+            <div className="top">Our Top Officials</div>
+            <div className="team-display">
             <div className="person-tag">
               <div className="person-image one"></div>
               <div className="person-info">
@@ -166,13 +168,23 @@ export class DashboardComponent extends React.Component<any, any> {
                 <span>Zambia</span>
               </div>
             </div>
+            </div>
           </div>
-          <div className="contacts">
-            Contacts
+          <div className="contacts" id="contacts">
+            <div className="contacts-body">
+              <p className="contact-title">Contact Information</p>
+              <p>WINDSOR HOUSE 3RD FLOOR</p>
+              <p>MUINDI MBINGU STREET, NAIROBI, KENYA</p>
+              <p>P.O BOX 1903-00100 GPO, NAIROBI, KENYA</p>
+              <p>TEL . +254 738 986 980</p>
+              <p>EMAIL:genua2013@gmail.com</p>
+              <br/>
+              <br/>
+              <span><strong>Copyright © 2016 <a href="#">genua</a> - Design:
+              <a> blotch technologies</a></strong></span>
+            </div>
+            <div className="africa"></div>
           </div>
-          <footer>
-            Footer
-          </footer>
         </div>
       </div>
     );
