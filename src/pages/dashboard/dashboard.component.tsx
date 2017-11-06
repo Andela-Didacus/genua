@@ -179,6 +179,12 @@ export class DashboardComponent extends React.Component<any, any> {
               <p>TEL . +254 738 986 980</p>
               <p>EMAIL:genua2013@gmail.com</p>
               <br/>
+              <div className="icons">
+                <span className="icon facebook"><a></a></span>
+                <span className="icon twitter"><a></a></span>
+                <span className="icon linkedin"><a></a></span>
+                <span className="icon email"><a></a></span>
+              </div>
               <br/>
               <span><strong>Copyright © 2016 <a href="#">genua</a> - Design:
               <a> blotch technologies</a></strong></span>

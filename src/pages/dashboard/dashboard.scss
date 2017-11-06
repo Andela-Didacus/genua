@@ -39,7 +39,7 @@ body {
     background-size: 4.8rem;
     background-repeat: no-repeat;
     background-image: url(../../common/backgrounds/logo.png);
-    margin-right: 3rem;
+    margin-right: 6rem;
   }
 
   .logo:hover {
@@ -81,7 +81,6 @@ body {
     }
 
     & div:hover {
-      background-color: white;
       border: ridge 1px #b7b7b7;
       background: rgba(78, 78, 78, 0.26);
       border-top: 0;
@@ -251,7 +250,7 @@ body {
   background-color: #ffffff;
   width: 100%;
   color: #0818f3;
-  height: 25rem;
+  height: 29rem;
 
   .africa {
     height: 100%;
@@ -304,7 +303,7 @@ body {
 .content2 {
   height: 30%;
   width: 60%;
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 0.1rem 0.1rem rgba(145, 145, 145, 0.64);
   border-radius: 3px;
   padding: 1rem;
@@ -334,5 +333,45 @@ body {
   #btn-events:hover {
     border: outset 2px rgba(18, 49, 157, 0.64);
     transition: all 1s;
+  }
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 3.5rem;
+  background: transparent;
+
+  .icon {
+    width: 16%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .icon:hover {
+    transform: scale(1.17);
+    transition: all 2s;
+  }
+
+  .facebook {
+    background: url("../../../assets/images/fb.png") no-repeat;
+    background-size: 70%;
+  }
+
+  .twitter {
+    background: url("../../../assets/images/twitter.png") no-repeat;
+    background-size: 70%;
+  }
+
+  .linkedin {
+    background: url("../../../assets/images/linkedin.png") no-repeat;
+    background-size: 70%;
+  }
+
+  .email {
+    background: url("../../../assets/images/email.png") no-repeat;
+    background-size: 70%;
   }
 }
