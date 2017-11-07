@@ -34,6 +34,8 @@ export class DashboardComponent extends React.Component<any, any> {
         <NavbarComponent />
 
         {/*images slider*/}
+        <div id="space"></div>
+
         <SliderComponent />
 
         {/*body*/}

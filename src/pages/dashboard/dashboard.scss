@@ -250,10 +250,10 @@ body {
   background-color: #ffffff;
   width: 100%;
   color: #0818f3;
-  height: 30rem;
+  height: 34rem;
 
   .contacts-body {
-    margin: 2rem 0 0rem 0rem;
+    margin: 3rem 0 0rem 0rem;
     padding-left: 2.2rem;
     font-family: "Primary-DINPro", sans-serif;
     text-align: center;
@@ -282,7 +282,6 @@ body {
 }
 
 .images-slider {
-  margin-top: 9.5rem;
   display: flex;
   flex-direction: column;
   height: 55rem;
@@ -366,4 +365,9 @@ body {
     background: url("../../../assets/images/email.png") no-repeat;
     background-size: 70%;
   }
+}
+
+#space {
+  height: 9.5rem;
+  width: 100%;
 }

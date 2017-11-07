@@ -5,7 +5,7 @@ import '../../pages/dashboard/dashboard.scss';
 export class SliderComponent extends React.Component <{}, {}> {
   public render() {
     return (
-      <div className="images-slider">
+      <div className="images-slider" id="image-slider">
         <div className="content2">
           <h2>Gender Network for Universities in Africa</h2>
           <p>GENUA works in partnership with other units and organizations
