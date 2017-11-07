@@ -9,9 +9,11 @@ import './dashboard.scss';
 import { AboutComponent } from '../../components/about/about.component';
 import { BodyComponent } from '../../components/body/body.component';
 import { ContactsComponent } from '../../components/contacts/contacts.component';
-import { NavbarComponent } from '../../common/navbar/navbar.component';
 import { SliderComponent } from '../../components/slider/slider.component';
 import { TeamComponent } from '../../components/team/team.component';
+
+// common
+import { NavbarComponent } from '../../common/navbar/navbar.component';
 
 /**
  * Dashboard Component

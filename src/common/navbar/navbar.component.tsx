@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+
 import '../../pages/dashboard/dashboard.scss';
 
 export class NavbarComponent extends React.Component <{}, {}> {
@@ -16,9 +18,9 @@ export class NavbarComponent extends React.Component <{}, {}> {
         </div>
         <div className="navigation">
           <div className="Navbar">
-            <div><a>Home </a></div>
-            <div><a>Events </a></div>
-            <div><a>Gallery</a></div>
+            <div><Link to="/"> Home</Link></div>
+            <div><Link to="/events"> Events </Link></div>
+            <div><Link to="/gallery"> Gallery </Link></div>
             <div><a href="#contacts">Contacts</a></div>
           </div>
         </div>
