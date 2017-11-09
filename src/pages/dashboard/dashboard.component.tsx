@@ -11,6 +11,7 @@ import { BodyComponent } from '../../components/body/body.component';
 import { ContactsComponent } from '../../components/contacts/contacts.component';
 import { SliderComponent } from '../../components/slider/slider.component';
 import { TeamComponent } from '../../components/team/team.component';
+import { EventsComponent } from '../../pages/events/events.component';
 
 // common
 import { NavbarComponent } from '../../common/navbar/navbar.component';
@@ -43,6 +44,9 @@ export class DashboardComponent extends React.Component<any, any> {
 
         {/*about us*/}
         <AboutComponent />
+
+        {/*events*/}
+        <EventsComponent />
 
         {/*team*/}
         <TeamComponent />

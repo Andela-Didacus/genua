@@ -19,8 +19,8 @@ export class NavbarComponent extends React.Component <{}, {}> {
         <div className="navigation">
           <div className="Navbar">
             <div><a href="#space"> Home</a></div>
-            <div><Link to="/events"> Events </Link></div>
-            <div><Link to="/gallery"> Gallery </Link></div>
+            <div><a href="#events"> Events </a></div>
+            <div><a href="#space"> Gallery </a></div>
             <div><a href="#contacts">Contacts</a></div>
           </div>
         </div>

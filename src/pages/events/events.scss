@@ -1,0 +1,72 @@
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 34rem;
+  width: 100%;
+  max-width: 100%;
+  background: url("../../../assets/images/bodyy.jpg") no-repeat;
+  background-size: 100%;
+
+  .titles {
+    text-align: center;
+    font-family: "Primary-DINPro", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .all-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 65%;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    .cards {
+      padding-top: .5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+    }
+
+    .card {
+      width: 48%;
+      height: 90%;
+      background: rgba(255, 255, 255, 0.33);
+      border-radius: 1rem;
+    }
+
+  }
+
+  .recent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.51);
+    padding-top: 1rem;
+
+    .vertical {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+    }
+
+    .card {
+      width: 98%;
+      height: 30%;
+      background: rgba(255, 255, 255, 0.33);
+      border-radius: 1rem;
+    }
+  }
+}
