@@ -22,6 +22,7 @@ import { NavbarComponent } from '../../common/navbar/navbar.component';
  * Dashboard for The Learning Map
  */
 export class DashboardComponent extends React.Component<any, any> {
+
   /**
    * Renders Genua page
    *
