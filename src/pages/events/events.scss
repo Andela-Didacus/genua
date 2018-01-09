@@ -1,0 +1,153 @@
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 34rem;
+  width: 100%;
+  max-width: 100%;
+  background: url("../../../assets/images/bodyy.jpg") no-repeat;
+  background-size: 100%;
+
+  .titles {
+    text-align: center;
+    font-family: "Primary-DINPro", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .all-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 65%;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-radius: .7rem;
+
+    .cards {
+      padding-top: .5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 48%;
+      height: 90%;
+      padding-top: 1rem;
+      background: rgba(255, 255, 255, 0.33);
+      border-radius: .7rem;
+      box-shadow: 0.08rem 0.08rem 0.08rem rgba(1, 1, 1, 0.64);
+
+      .event-logo {
+        height: 80%;
+        width: 40%;
+        border-radius: .4rem;
+      }
+
+      .event-title {
+        height: 80%;
+        width: 50%;
+        background: transparent;
+        border-radius: .4rem;
+        text-align: left;
+        font-family: "Primary-DINPro", sans-serif;
+        font-size: .9rem;
+        color: darkblue;
+
+        p {
+          font-size: .7rem;
+          color: black;
+        }
+      }
+
+      .image1 {
+        background: url("../../../assets/images/acu-2.jpg") no-repeat;
+        background-size: cover;
+      }
+
+      .image2 {
+        background: url("../../../assets/images/gm.png") no-repeat;
+        background-size: 100%;
+      }
+
+      .image3 {
+        background: url("../../../assets/images/acu-2.jpg") no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+
+  .recent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.51);
+    padding-top: 1rem;
+    padding-left: .7rem;
+    border-radius: .7rem;
+
+    .vertical {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 97%;
+      height: 30%;
+      padding-top: .7rem;
+      background: rgba(255, 255, 255, 0.33);
+      border-radius: .7rem;
+      box-shadow: 0.08rem 0.08rem 0.08rem rgba(1, 1, 1, 0.48);
+
+      .event-logo {
+        height: 85%;
+        width: 40%;
+        border-radius: .4rem;
+      }
+
+      .event-title {
+        height: 80%;
+        width: 50%;
+        background: transparent;
+        border-radius: .4rem;
+        text-align: left;
+        font-family: "Primary-DINPro", sans-serif;
+        font-size: .9rem;
+        color: darkblue;
+
+        p {
+          font-size: .7rem;
+          color: black;
+        }
+      }
+
+      .image7 {
+        background: url("../../../assets/images/acu-2.jpg") no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}
+
+.empty {
+  background: transparent !important;
+  box-shadow: 0.08rem 0.08rem 0.08rem rgba(255, 255, 255, 0) !important;
+}
